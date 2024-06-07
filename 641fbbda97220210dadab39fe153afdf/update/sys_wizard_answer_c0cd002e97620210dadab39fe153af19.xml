@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New  E-Wallet Request by Managers</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name> E-Wallet Request by Managers</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">19d3fca43c31311068bcf327dfe37f33</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 06:29:32</sys_created_on>
+        <sys_id>c0cd002e97620210dadab39fe153af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> E-Wallet Request by Managers</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
+        <sys_update_name>sys_wizard_answer_c0cd002e97620210dadab39fe153af19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 06:29:32</sys_updated_on>
+        <table/>
+        <target_url>x_800355_corpora_0_e_wallet_request_by_managers.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
