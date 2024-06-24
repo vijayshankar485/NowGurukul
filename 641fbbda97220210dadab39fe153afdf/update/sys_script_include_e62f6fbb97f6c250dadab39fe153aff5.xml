@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_800355_corpora_0.GetUserByManager</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GetUserByManager</name>
+        <script><![CDATA[var GetUserByManager = Class.create();
+GetUserByManager.prototype = {
+    initialize: function() {},
+
+    getUsersByManager: function() {
+        var currentUser = gs.getUser();
+        var Usergr = new GlideRecord('sys_user');
+        gr.addQuery('manager', currentUser.getID());
+        gr.query();
+        var users = [];
+        while (gr.next()) {
+            while (userGr.next()) {
+                var userData = {
+                    id: userGr.getUniqueValue(),
+                    name: userGr.getDisplayValue('name'),
+                    email: userGr.getValue('email'),
+                    department: userGr.getDisplayValue('department'),
+                    phone: userGr.getValue('phone_number'),
+                    manager: userGr.getDisplayValue('manager'),
+                    isActive: userGr.getValue('active') == 'true'
+                };
+                users.push(userData);
+            }
+
+            return users;
+
+
+        }
+
+    },
+
+    type: 'GetUserByManager'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 06:31:15</sys_created_on>
+        <sys_id>e62f6fbb97f6c250dadab39fe153aff5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetUserByManager</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
+        <sys_update_name>sys_script_include_e62f6fbb97f6c250dadab39fe153aff5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 06:37:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Type of Award/Appreciation ">ad5b7d0c97430650dadab39fe153afcc</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 16:42:24</sys_created_on>
+        <sys_id>940db50c97430650dadab39fe153af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On-Spot Award (Rs.400)</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
+        <sys_update_name>question_choice_940db50c97430650dadab39fe153af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 16:42:24</sys_updated_on>
+        <text>On-Spot Award (Rs.400)</text>
+        <value>osa</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=940db50c97430650dadab39fe153af21"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>940db50c97430650dadab39fe153af21</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 16:42:24</sys_created_on>
+        <sys_id>0b0d71cc97430650dadab39fe153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 16:42:24</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>940db50c97430650dadab39fe153af21</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 16:42:24</sys_created_on>
+        <sys_id>4b0db14c97430650dadab39fe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 16:42:24</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
