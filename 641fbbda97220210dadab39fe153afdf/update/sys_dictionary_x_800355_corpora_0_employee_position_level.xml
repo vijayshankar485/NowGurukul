@@ -16,7 +16,7 @@
         <column_label>Position Level</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>sa</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_800355_corpora_0_employee</name>
         <next_element/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
         <sys_update_name>sys_dictionary_x_800355_corpora_0_employee_position_level</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-05 06:14:51</sys_updated_on>
+        <sys_updated_on>2024-06-27 06:23:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

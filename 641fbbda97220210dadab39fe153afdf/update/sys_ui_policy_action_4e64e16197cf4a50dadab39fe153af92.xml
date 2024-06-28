@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>e_wallet_budget</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 06:46:22</sys_created_on>
+        <sys_id>4e64e16197cf4a50dadab39fe153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e_wallet_budget</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4e64e16197cf4a50dadab39fe153af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 06:46:22</sys_updated_on>
+        <table>x_800355_corpora_0_employee</table>
+        <ui_policy display_value=" ‘E-Wallet Budget’ field on Employee Table should only be hidden for Employees whose Position Level is Associate or Senior Associate.">a324ed2197cf4a50dadab39fe153afc3</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

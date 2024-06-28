@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_800355_corpora_0_e_wallet_request_by_managers</collection>
+        <condition table="x_800355_corpora_0_e_wallet_request_by_managers">request_status=submitted^assignment_group=ffb74f1897ba4610dadab39fe153af2b^ORassignment_group=9b67471897ba4610dadab39fe153afd6^ORassignment_group=9137075497ba4610dadab39fe153af1e^ORassignment_group=ce7d1fcb97e7b110dadab39fe153afe8^EQ<item display_value="Submitted" endquery="false" field="request_status" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+            <item display_table="sys_user_group" display_value="Food Delivery Voucher Agents" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="ffb74f1897ba4610dadab39fe153af2b"/>
+            <item display_table="sys_user_group" display_value=" Shopping/Sports-Wear Voucher Agents " endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="9b67471897ba4610dadab39fe153afd6"/>
+            <item display_table="sys_user_group" display_value="E-Commerce Voucher Agents " endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="9137075497ba4610dadab39fe153af1e"/>
+            <item display_table="sys_user_group" display_value=" E-Wallet HR Approver" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="ce7d1fcb97e7b110dadab39fe153afe8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi Team,</p>
+<p>E- Wallet Request ${URI_REF} has been assigned to you&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name> HR Assignment grp and assigned to</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group,assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>E- Wallet Request Number: ${number} has been assigned to you </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-28 11:47:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cec13f3597c7ca50dadab39fe153af9d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name> HR Assignment grp and assigned to</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
+        <sys_update_name>sysevent_email_action_cec13f3597c7ca50dadab39fe153af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-28 12:04:42</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="e_wallet_balance" table="x_800355_corpora_0_employee">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="rejection_reason" table="x_800355_corpora_0_e_wallet_request_by_managers">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,10 +13,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>E-Wallet Balance</column_label>
+        <column_label>Rejection Reason</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -26,16 +26,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>e_wallet_balance</element>
+        <element>rejection_reason</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_800355_corpora_0_employee</name>
+        <name>x_800355_corpora_0_e_wallet_request_by_managers</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,15 +51,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-05 05:35:50</sys_created_on>
-        <sys_id>624184ae97220210dadab39fe153af4b</sys_id>
-        <sys_name>E-Wallet Balance</sys_name>
+        <sys_created_on>2024-06-28 05:41:50</sys_created_on>
+        <sys_id>0f3fda759783ca50dadab39fe153af59</sys_id>
+        <sys_name>Rejection Reason</sys_name>
         <sys_package display_value="Corporate Gifting" source="x_800355_corpora_0">641fbbda97220210dadab39fe153afdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Corporate Gifting">641fbbda97220210dadab39fe153afdf</sys_scope>
-        <sys_update_name>sys_dictionary_x_800355_corpora_0_employee_e_wallet_balance</sys_update_name>
+        <sys_update_name>sys_dictionary_x_800355_corpora_0_e_wallet_request_by_managers_rejection_reason</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-27 06:20:12</sys_updated_on>
+        <sys_updated_on>2024-06-28 05:41:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
